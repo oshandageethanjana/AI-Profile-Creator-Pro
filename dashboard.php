@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
 
-require_once __DIR__ . '/includes/page.php';
-require_once __DIR__ . '/includes/database.php';
+require_once __DIR__ . 'page.php';
+require_once __DIR__ . 'database.php';
 
 $boot = page_boot();
 $u = $boot['user'];
