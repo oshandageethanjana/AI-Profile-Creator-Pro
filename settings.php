@@ -53,6 +53,8 @@ function pro_packages_get(): array {
             'credits' => (int)($p['credits'] ?? 0),
             'period' => (string)($p['period'] ?? 'month'),
         ];
+
+        //end
     }
     return $out ?: pro_packages_default();
 }
