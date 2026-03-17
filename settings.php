@@ -1,5 +1,5 @@
 <?php
-//settings
+//settings_PAGE
 declare(strict_types=1);
 
 require_once __DIR__ . '/database.php';
